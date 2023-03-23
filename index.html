@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>Hora da Pausa</title>
+</head>
+<body>
+
+    <header class="menu">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1 style="cursor:pointer; width: 12%;">Mãenet <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg></h1>
+                </div>
+                <ul class="menu-responsivo">
+                    <li><a href="">Pontos</a></li>
+                    <li><a href="">Enviar historico Mensal</a></li>
+                    <li><a href="">Encontrei um erro!</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="centro">
+        <img src="imagens/maenet.png">
+        <body>
+            <div class="datetime">
+                <div class="date">
+                    <span id="dianum">00</span>/
+                    <span id="mes">Mês</span>/
+                    <span id="ano">Ano</span>
+                </div>
+                <div class="time">
+                    <span id="hora">00</span>:
+                    <span id="minutos">00</span>:
+                    <span id="segundos">00</span>
+                </div>
+            </div>
+            
+        <div class="botao-center">
+            <input type="button" value="Iniciar Pausa" class="botao"/>
+        </div>
+    </div>
+
+    <script src="js/JQuery.js"></script>
+    <script src="js/Javascript.js"></script>
+</body>
+</html>
